@@ -1,0 +1,3 @@
+{
+  "cmd": ["kdiff3", "$file1", "$file2"]
+}

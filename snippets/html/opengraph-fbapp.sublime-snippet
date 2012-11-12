@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<meta property="fb:app_id"      content="${6}" />
+]]></content>
+	<tabTrigger>opengraph</tabTrigger>
+	<description>facebook app id</description>
+</snippet>

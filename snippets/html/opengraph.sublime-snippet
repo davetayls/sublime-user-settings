@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<meta property="og:title"       content="${1}" />
+<meta property="og:type"        content="${2}" />
+<meta property="og:url"         content="${3}" />
+<meta property="og:image"       content="${4}" />
+<meta property="og:site_name"   content="${5}" />
+<meta property="og:description" content="${6}" />
+]]></content>
+	<tabTrigger>opengraph</tabTrigger>
+	<description>basic headers</description>
+</snippet>

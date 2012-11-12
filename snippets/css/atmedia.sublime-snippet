@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@media ${1:all} and (${2}){
+	${3}
+}
+]]></content>
+    <tabTrigger>media</tabTrigger>
+    <scope>source.css</scope>
+    <description>@media block</description>
+</snippet>

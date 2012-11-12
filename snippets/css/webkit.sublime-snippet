@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-${1:name}: ${2:value};
+   -moz-$1: $2;
+    -ms-$1: $2;
+     -o-$1: $2;
+        $1: $2;
+]]></content>
+	<tabTrigger>webkit</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

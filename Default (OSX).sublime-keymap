@@ -1,0 +1,72 @@
+[
+    { 	"keys": ["ctrl+m"],
+    	"command": "open_recently_closed_file", "args": { "show_quick_panel": true }
+    },
+    {   "keys": ["ctrl+n"],
+        "command": "toggle_side_bar",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // line nudging
+    { 	"keys": ["super+j"], "command": "swap_line_down"},
+    { 	"keys": ["super+k"], "command": "swap_line_up"},
+
+    // motions
+	{ 	"keys": ["4"],
+		"command": "set_motion", "args": {
+			"motion": "vi_move_to_hard_eol",
+			"motion_args": {"repeat": 1, "extend": true},
+			"inclusive": true,
+			"clip_to_line": true
+		},
+		"context": [{"key": "setting.command_mode"}]
+	},
+    {   "keys": ["0"],
+        "command": "set_motion", "args": {
+            "motion": "move_to",
+            "motion_args": {"to": "bol", "extend": true }
+        },
+        "context":
+        [
+            {"key": "setting.command_mode"},
+            {"key": "vi_has_repeat_digit", "operand": false}
+        ]
+    },
+    {   "keys": ["{", "="],
+        "command": "format_inside_braces",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    {
+        "keys": ["t","t"],
+		"context": [
+            { "key": "setting.command_mode" },
+            { "key": "selector", "operator": "equal", "operand": "text.html" }
+        ],
+        "command": "bracket_highlighter_key",
+        "args":
+        {
+            "ignore": ["quote"],
+            "plugin":
+            {
+                "type": ["tag"],
+                "command": "bracket_plugins.select_tag"
+            }
+        }
+    },
+
+    // layouts
+    {
+        "keys": ["super+alt+6"],
+        "command": "set_layout",
+        "caption" : "1-2 Grid",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells":
+            [
+                [0, 0, 1, 2], [1, 0, 2, 1],
+                              [1, 1, 2, 2]
+            ]
+        }
+    }
+]

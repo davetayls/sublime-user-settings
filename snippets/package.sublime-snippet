@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+{
+	"name": "${1}",
+	"version": "0.0.1",
+	"author": "davetayls <dave@the-taylors.org>",
+	"description": "${2}",
+	"bin": {
+		"http-server": "./bin/http-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/${3}.git"
+	},
+	"keywords": [
+		"${4}"
+	],
+	"dependencies" : { },
+	"devDependencies": { },
+	"license": "MIT"
+}
+]]></content>
+	<tabTrigger>package</tabTrigger>
+</snippet>

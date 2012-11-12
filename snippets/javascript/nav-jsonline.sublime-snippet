@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{ title: "${1}", url: "${2:none}" },
+]]></content>
+	<tabTrigger>nav</tabTrigger>
+	<scope>source.js</scope>
+	<description>json title and url line for nav</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+position: absolute;
+${1:top}: ${2};
+${3:left}: ${4};
+]]></content>
+	<tabTrigger>abs</tabTrigger>
+	<scope>source.css,source.sass</scope>
+</snippet>

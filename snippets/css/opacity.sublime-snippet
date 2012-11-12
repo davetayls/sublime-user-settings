@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+opacity: 0.${1:};
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1}0);
+filter: alpha(opacity=${1}0);
+]]></content>
+	<tabTrigger>opacity</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

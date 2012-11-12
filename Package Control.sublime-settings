@@ -1,0 +1,38 @@
+{
+	"auto_upgrade_last_run": 1352500162,
+	"installed_packages":
+	[
+		"AAAPackageDev",
+		"ApacheConf.tmLanguage",
+		"Auto Semi-Colon",
+		"Backbone.js",
+		"BracketHighlighter",
+		"Calculate",
+		"CoffeeScript",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"FavoriteFiles",
+		"FileDiffs",
+		"Gist",
+		"Jade",
+		"LESS",
+		"Live CSS",
+		"Markdown Preview",
+		"Nodejs",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeMRU",
+		"SublimeTextGitX",
+		"SublimeTODO",
+		"Synchronized File Scrolling",
+		"Tag",
+		"Terminal",
+		"Theme - Phoenix",
+		"Vintage Numbers",
+		"WordHighlight",
+		"ZenCoding"
+	]
+}

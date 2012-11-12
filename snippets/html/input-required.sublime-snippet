@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="field-item">
+	<label for="${1:id}" class="label-text">
+		${2} <abbr class="required" title="required">*</abbr>
+	</label>
+	<input id="${3:$1}" name="${4:$1}" type="${5:text}" />
+</div>
+]]></content>
+	<tabTrigger>fieldrequired</tabTrigger>
+	<description>
+		field-item required
+	</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<form class="form-errorContainer" action="${1}" method="${2:post}">
+    <div class="form-errorSummary"></div>
+	${3}
+</form>
+]]></content>
+	<tabTrigger>formcontainer</tabTrigger>
+	<description>
+		form error container
+	</description>
+</snippet>

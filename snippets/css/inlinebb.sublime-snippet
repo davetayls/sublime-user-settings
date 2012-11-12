@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+display: -moz-inline-stack;
+display: inline-block;
+*display: inline;
+*zoom: 1;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inlinebb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

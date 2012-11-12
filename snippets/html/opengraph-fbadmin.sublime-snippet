@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<meta property="fb:admins"      content="${6:753920161}" />
+]]></content>
+	<tabTrigger>opengraph</tabTrigger>
+	<description>facebook admins</description>
+</snippet>

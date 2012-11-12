@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+/**
+	jQuery.${1:name} v0.1
+	Dave Taylor http://the-taylors.org
+
+	@license The MIT License (MIT)
+	@preserve Copyright (c) 2012 Dave Taylor http://the-taylors.org
+*/
+/*global define,require */
+(function(\$){
+	'use strict';
+
+	var ${1/./\u$0/} = function(el, options){
+		if (el || options){
+			this.init(el, options);
+		}
+	};
+	${1/./\u$0/}.prototype = {
+		defaults: {},
+		init: function(el, options){
+			var self = this;
+			this.\$el = \$(el);
+			this.settings = \$.extend({}, this.defaults, options);
+
+			this.\$el.data('$1', this);
+			return this;
+		}
+	};
+
+	\$.fn.$1 = function(options) {
+		return this.each(function(){
+			var $1 = new ${1/./\u$0/}(this, options);
+		});
+	};
+
+}(window.jQuery));
+]]></content>
+	<tabTrigger>jquery</tabTrigger>
+	<scope>source.js</scope>
+	<description>
+		jquery plugin outline
+	</description>
+</snippet>

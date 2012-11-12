@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if (${1}){
+	${2}
+}
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.js</scope>
+	<description>
+		no semi-colon
+	</description>
+</snippet>

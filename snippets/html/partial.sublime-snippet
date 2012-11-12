@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<%- partial(${1}) %>
+]]></content>
+	<tabTrigger>partial</tabTrigger>
+</snippet>

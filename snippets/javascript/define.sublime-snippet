@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/*global define, require */
+define(
+[
+    'jquery'${1}
+],
+function(\$){
+	'use strict';
+
+	return {
+		init: function(){
+			${3}
+		}
+	};
+});
+]]></content>
+	<tabTrigger>define</tabTrigger>
+	<scope>source.js</scope>
+	<description>general</description>
+</snippet>
