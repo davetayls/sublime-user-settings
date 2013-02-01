@@ -5,5 +5,5 @@ margin: 0;
 padding: 0;
 ]]></content>
 	<tabTrigger>00l</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

@@ -15,6 +15,17 @@
 				}
 			},
 			{
+				"caption": "iTerm",
+				"id": "side-bar-files-open-with-iterm",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "iTerm.app", // OSX
+					"extensions": ""
+				}
+			},
+			{
 				"caption": "Mou",
 				"id": "side-bar-files-open-with-mou",
 
@@ -49,7 +60,7 @@
 				"command": "side_bar_files_open_with",
 				"args": {
 									"paths": [],
-									"application": "C:\\Documents and Settings\\tito\\Configuración local\\Datos de programa\\Google\\Chrome\\Application\\chrome.exe",
+									"application": "Chrome.app",
 									"extensions":".*" //any file with extension
 								}
 			},

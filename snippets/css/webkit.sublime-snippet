@@ -7,5 +7,5 @@
         $1: $2;
 ]]></content>
 	<tabTrigger>webkit</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

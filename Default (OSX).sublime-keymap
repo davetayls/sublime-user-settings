@@ -1,7 +1,4 @@
 [
-    { 	"keys": ["ctrl+m"],
-    	"command": "open_recently_closed_file", "args": { "show_quick_panel": true }
-    },
     {   "keys": ["ctrl+n"],
         "command": "toggle_side_bar",
         "context": [{"key": "setting.command_mode"}]

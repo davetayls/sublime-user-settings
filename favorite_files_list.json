@@ -1,7 +1,11 @@
 {
     "files": [
         "/private/etc/apache2/extra/httpd-vhosts.conf",
-        "/Users/davetayls/.profile"
+        "/Users/davetayls/.profile",
+        "/Users/davetayls/.jshintrc",
+        "/Users/davetayls/.gitconfig",
+        "/Users/davetayls/.bashrc",
+        "/Users/davetayls/.vimrc"
     ],
     "groups": {},
     "version": 1

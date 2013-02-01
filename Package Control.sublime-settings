@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1352500162,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -9,10 +9,13 @@
 		"BracketHighlighter",
 		"Calculate",
 		"CoffeeScript",
+		"Cucumber",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
+		"Emmet",
 		"FavoriteFiles",
 		"FileDiffs",
+		"FreeMarker",
 		"Gist",
 		"Jade",
 		"LESS",
@@ -32,7 +35,6 @@
 		"Terminal",
 		"Theme - Phoenix",
 		"Vintage Numbers",
-		"WordHighlight",
-		"ZenCoding"
+		"WordHighlight"
 	]
 }
