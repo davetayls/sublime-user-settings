@@ -3,5 +3,5 @@
 position: relative;
 ]]></content>
 	<tabTrigger>rel</tabTrigger>
-	<scope>source.css,source.sass</scope>
+    <scope>source.css,source.stylus,source.sass</scope>
 </snippet>

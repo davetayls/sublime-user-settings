@@ -3,5 +3,5 @@
 background: url(${1:/images/sprites.png}) no-repeat ${2:0}px ${3:0}px;
 ]]></content>
 	<tabTrigger>sprite</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

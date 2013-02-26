@@ -1,3 +1,5 @@
 {
-  "cmd": ["kdiff3", "$file1", "$file2"]
+  // "cmd": ["/Applications/kdiff3.app/Contents/MacOS/kdiff3", "$file1", "$file2"],
+  "cmd": ["mvim", "-d", "$file1", "$file2"],
+  "open_in_sublime": false
 }

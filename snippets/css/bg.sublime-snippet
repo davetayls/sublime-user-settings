@@ -3,7 +3,7 @@
 background: #${1};
 ]]></content>
 	<tabTrigger>bg</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 	<description>
 		background all
 	</description>

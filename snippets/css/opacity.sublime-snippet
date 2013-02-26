@@ -5,5 +5,5 @@ opacity: 0.${1:};
 filter: alpha(opacity=${1}0);
 ]]></content>
 	<tabTrigger>opacity</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

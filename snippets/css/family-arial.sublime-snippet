@@ -3,5 +3,5 @@
 font-family: Arial, Helvetica, "Nimbus Sans L", "Free Sans", Sans-Serif;
 ]]></content>
 	<tabTrigger>family</tabTrigger>
-	<scope>source.css</scope>
+	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

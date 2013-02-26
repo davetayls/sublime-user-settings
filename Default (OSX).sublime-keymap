@@ -1,4 +1,5 @@
 [
+    { "keys": ["super+shift+alt+w"], "command": "close_all" },
     {   "keys": ["ctrl+n"],
         "command": "toggle_side_bar",
         "context": [{"key": "setting.command_mode"}]
@@ -8,6 +9,14 @@
     { 	"keys": ["super+k"], "command": "swap_line_up"},
 
     // motions
+    {   "keys": ["ctrl+o"],
+        "command": "navigation_history_back",
+        "context": [{"key": "setting.command_mode"}]
+    },
+    {   "keys": ["ctrl+i"],
+        "command": "navigation_history_forward",
+        "context": [{"key": "setting.command_mode"}]
+    },
 	{ 	"keys": ["4"],
 		"command": "set_motion", "args": {
 			"motion": "vi_move_to_hard_eol",
@@ -64,6 +73,16 @@
                 [0, 0, 1, 2], [1, 0, 2, 1],
                               [1, 1, 2, 2]
             ]
+        }
+    },
+    {
+        "keys": ["super+alt+7"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.6, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
         }
     }
 ]
