@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+function(e){
+	${1}
+	e.preventDefault();
+}
+]]></content>
+	<tabTrigger>fe</tabTrigger>
+	<scope>source.js</scope>
+	<description>
+		Anonymous inner, prev default
+	</description>
+</snippet>
