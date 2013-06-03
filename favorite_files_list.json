@@ -5,7 +5,8 @@
         "/Users/davetayls/.jshintrc",
         "/Users/davetayls/.gitconfig",
         "/Users/davetayls/.bashrc",
-        "/Users/davetayls/.vimrc"
+        "/Users/davetayls/.vimrc",
+        "/private/etc/hosts"
     ],
     "groups": {},
     "version": 1

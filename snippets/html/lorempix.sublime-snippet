@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+http://lorempixel.com/${1}/${2}
+]]></content>
+	<tabTrigger>lorempixel</tabTrigger>
+	<description>
+        dummy images
+	</description>
+</snippet>

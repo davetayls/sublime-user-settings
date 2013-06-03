@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[box-sizing: border-box;]]></content>
+	<tabTrigger>box</tabTrigger>
+	<scope>source.css,source.stylus,source.sass</scope>
+</snippet>

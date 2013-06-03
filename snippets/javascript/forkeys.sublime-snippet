@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-for (var key in props){
-	if (props.hasOwnProperty(key)){
-		${1}
+for (var ${1:key} in ${2}){
+	if ($2.hasOwnProperty($1)){
+		${3}
 	}
 }
 ]]></content>

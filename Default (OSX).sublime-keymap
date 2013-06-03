@@ -1,9 +1,13 @@
 [
+    { "keys": ["ctrl+shift+t"], "command": "open_recent_files" },
+
     { "keys": ["super+shift+alt+w"], "command": "close_all" },
+
     {   "keys": ["ctrl+n"],
         "command": "toggle_side_bar",
         "context": [{"key": "setting.command_mode"}]
     },
+
     // line nudging
     { 	"keys": ["super+j"], "command": "swap_line_down"},
     { 	"keys": ["super+k"], "command": "swap_line_up"},
@@ -80,7 +84,27 @@
         "command": "set_layout",
         "args":
         {
+            "cols": [0.0, 0.4, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["super+alt+8"],
+        "command": "set_layout",
+        "args":
+        {
             "cols": [0.0, 0.6, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    {
+        "keys": ["super+alt+9"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.7, 1.0],
             "rows": [0.0, 1.0],
             "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
         }

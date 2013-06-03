@@ -3,6 +3,6 @@
 margin: 0;
 padding: 0;
 ]]></content>
-	<tabTrigger>00</tabTrigger>
+	<tabTrigger>mp</tabTrigger>
 	<scope>source.css,source.stylus,source.sass</scope>
 </snippet>

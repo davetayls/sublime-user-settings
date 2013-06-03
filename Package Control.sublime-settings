@@ -7,8 +7,10 @@
 		"Auto Semi-Colon",
 		"Backbone.js",
 		"BracketHighlighter",
+		"BufferScroll",
 		"Calculate",
 		"CoffeeScript",
+		"ColorPick",
 		"Cucumber",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
@@ -37,6 +39,7 @@
 		"Tag",
 		"Terminal",
 		"Theme - Phoenix",
+		"Theme - Soda",
 		"WordHighlight"
 	]
 }
